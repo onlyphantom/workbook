@@ -1,7 +1,111 @@
 {
-    "integrations": {
-        "ga4": {
-            "measurementId": "G-Y3XVH3G23S"
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Coursebook",
+  "colors": {
+    "primary": "#b1976b",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "assignments"
+            ]
+          },
+          {
+            "group": "Enterprise Data Management",
+            "pages": [
+              "enterprise-data-management/historical",
+              "enterprise-data-management/edm",
+              "enterprise-data-management/exercise_erd"
+            ]
+          },
+          {
+            "group": "Financial Data Analysis",
+            "pages": [
+              "financial-data-analytics/api_programming_python",
+              "financial-data-analytics/pandas",
+              "financial-data-analytics/lab_pandas"
+            ]
+          },
+          {
+            "group": "Data Visualization",
+            "pages": [
+              "data-visualization/dv_introduction",
+              "data-visualization/dv_fundamental",
+              "data-visualization/dv_tools",
+              "data-visualization/lab_tableau_public"
+            ]
+          },
+          {
+            "group": "Apache Kafka and Redis",
+            "pages": [
+              "kafka-redis/nosql",
+              "kafka-redis/lab_drf_redis",
+              "kafka-redis/kafka",
+              "kafka-redis/lab_kafka"
+            ]
+          },
+          {
+            "group": "Final Project",
+            "pages": [
+              "final-project/django-route",
+              "final-project/financial-ai-route"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/python-programming",
+              "essentials/sql",
+              "essentials/visualization"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Google Classroom",
+          "href": "https://classroom.google.com/c/NjgxMzk2ODU4ODc3?cjc=qeo3imy",
+          "icon": "graduation-cap"
+        },
+        {
+          "anchor": "Sectors Financial API",
+          "href": "https://docs.sectors.app",
+          "icon": "book"
         }
+      ]
     }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:human@supertype.ai"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/supertypeai",
+      "linkedin": "https://www.linkedin.com/company/supertypeai"
+    }
+  },
+  "integrations": {
+    "ga4": {
+        "measurementId": "G-Y3XVH3G23S"
+    }
+}
 }
