@@ -446,7 +446,7 @@ CREATE TABLE profile (
   );
 ```
 
-After successfully creating the table with the corresponding schema, we can then populate the table using this [data](https://github.com/onlyphantom/brillian/blob/main/datasets/idx_company_profile_080824.csv).
+After successfully creating the table with the corresponding schema, we can then populate the table using this [data](https://github.com/onlyphantom/coursebook/blob/main/datasets/idx_company_profile_080824.csv).
 
 Finally, let's add another table named `aggregated_data`. The aggregated_data table will store aggregated volume data in a microbatch fashion. 
 It consist of the following attributes: `processing_id`, `processed_at`, `sector`, `total_volume`, and `date`. The processing_id serves as the primary key for this table. 
@@ -1181,7 +1181,7 @@ MYSQL_DATABASE = st.secrets["mysql"]["MYSQL_DATABASE"]
 MYSQL_USERNAME = st.secrets["mysql"]["MYSQL_USERNAME"]
 MYSQL_PASSWORD = st.secrets["mysql"]["MYSQL_PASSWORD"]
 
-st.set_page_config(layout='wide', page_title='Brillian Stock Dashboard')
+st.set_page_config(layout='wide', page_title='Coursebook Dashboard')
 ```
 
 We begin by importing all the ncessary packages and load the environment variables to the necessary configurations, which we earlier defined in `secrets.toml`.
