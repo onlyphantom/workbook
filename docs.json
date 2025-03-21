@@ -1,5 +1,7 @@
-"integrations": {
-    "ga4": {
-        "measurementId": "G-Y3XVH3G23S"
+{
+    "integrations": {
+        "ga4": {
+            "measurementId": "G-Y3XVH3G23S"
+        }
     }
 }
