@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Coursebook",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
   "colors": {
     "primary": "#b1976b",
     "light": "#07C983",
@@ -77,13 +81,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Google Classroom",
-          "href": "https://classroom.google.com/c/NjgxMzk2ODU4ODc3?cjc=qeo3imy",
-          "icon": "graduation-cap"
-        },
-        {
           "anchor": "Sectors Financial API",
           "href": "https://docs.sectors.app",
+          "icon": "code"
+        },
+        {
+          "anchor": "Supplementary Reading",
+          "href": "https://supertype.ai/notes",
           "icon": "book"
         }
       ]
